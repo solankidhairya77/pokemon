@@ -23,7 +23,7 @@
     <div class="container-fluid">
       <div class="row ">
         <div class="col-sm-12 nav1">
-          <h1 align="center">International Pokedex</h1>
+          <h1 align="center">International Pokedexsfasfsafa</h1>
         </div>
 
   <!--  <div class="srch">
