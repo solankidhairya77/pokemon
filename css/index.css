@@ -4,13 +4,8 @@
     box-sizing: border-box;
 }
 
-
-/* main {
-    
+ind-body {
+    height: 400px;
     width: 100%;
-    background-color: yellow
-    /* margin: 0 auto; */
-    /* display: grid;
-    grid-template-rows: 50px 400px;
-    grid-template-columns: 1fr; */
-} */
+
+}
