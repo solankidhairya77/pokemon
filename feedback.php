@@ -5,29 +5,28 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href="css/login.css" rel="stylesheet" type="text/css">
-        <title>pokedex</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Pokedex</title>
+    <link rel="icon" type="image/x-icon" href="hello.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
+    <link href="css/pstyles.css" rel="stylesheet" />
     </head>
-    <style>
-        body{
-        margin: 0px;
-        padding: 0px;
-        background: url('hi.jpg');
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-    </style>
-    <body>   
-        <div class="title">  
+    <body style="background:url(images/hi.jpg)" >   
+        <div class="feedback">  
             <h1 align="center">Feedback</h1>
         </div>
-        <form method="post" action="givefeedback.php">
+        <form method="post" action="feedback.php">
             <div class ="login-box">
                 <div class="textbox">
                     <input type="text" placeholder="Name" name="name" required>
@@ -41,7 +40,9 @@
                 <div class="textbox">  
                     <input type="text" placeholder="Comment" name="comment" required> 
                 </div> 
-                <input class="btn" type="submit" name="submit" value="submit">
+                <div id="but">
+                    <input class="d" type="submit" name="submit" value="submit">
+                </div>
             </div>
         </form>           
         <!-- Optional JavaScript -->

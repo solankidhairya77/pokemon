@@ -1,4 +1,9 @@
 @import"https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .login
 {
@@ -6,15 +11,13 @@
     color: red;
     margin-top: 200px;
 }
-.info
+/* .info
 {
     background-color: maroon;
     color: red;
     margin-top: 200px;
-}
+} */
 body{
-    margin: 0;
-    padding: 0;
     font-family: sans-serif;
     background: url(../hi.jpg) no-repeat; 
     background-size: cover;
@@ -63,7 +66,7 @@ body{
     margin: 0 10px;     
 }
 
-.btn{
+.d{
     width: 100%;
     background: none;
     border: 2px solid #ac0515;
